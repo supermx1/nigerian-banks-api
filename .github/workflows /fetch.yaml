@@ -3,7 +3,7 @@ name: Transform JSON Data
 on:
   push:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   transform_json:
