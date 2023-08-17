@@ -28,7 +28,7 @@ jobs:
 
           const airtableEndpoint = 'https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks';
           const transformedDataFile = 'transformed_data.json';
-          const authToken = 'YOUR_AUTH_TOKEN'; // Replace with your actual token
+          const authToken = ${{ secrets.NIGERIAN_BANKS_AIRTABLES }}; // Replace with your actual token
 
           const fetchAirtableData = async () => {
             try {
