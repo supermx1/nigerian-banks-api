@@ -1,6 +1,7 @@
 name: Transform JSON Data
 
 on:
+  push:
   schedule:
     - cron: "0 6 * * *"
 
@@ -15,7 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '18'
 
       - name: Install Dependencies
         run: npm install
@@ -25,7 +26,7 @@ jobs:
           const fetch = require('node-fetch');
           const fs = require('fs');
 
-          const airtableEndpoint = 'YOUR_AIRTABLE_ENDPOINT_URL';
+          const airtableEndpoint = 'https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks';
           const transformedDataFile = 'transformed_data.json';
           const authToken = 'YOUR_AUTH_TOKEN'; // Replace with your actual token
 
