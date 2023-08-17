@@ -28,7 +28,7 @@ jobs:
         run: |
           # Transform the fetched data to the desired format and add enclosing brackets
           echo '[' > transformed_data.json
-          cat data.json | jq '.records[].fields' | paste -sd "," - >> transformed_data.json
+          cat data.json | jq '.records[].fields' | sed -e '$!s/$/,/' >> transformed_data.json
           echo ']' >> transformed_data.json
 
       # Step 4: Commit and Push Changes
