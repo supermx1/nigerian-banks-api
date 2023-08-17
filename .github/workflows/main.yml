@@ -26,8 +26,10 @@ jobs:
       # Step 3: Transform Data
       - name: Transform Data
         run: |
-          # Transform the fetched data to the desired format
-          cat data.json | jq '.records[].fields' > transformed_data.json
+          # Transform the fetched data to the desired format and add enclosing brackets
+          echo '[' > transformed_data.json
+          cat data.json | jq '.records[].fields' >> transformed_data.json
+          echo ']' >> transformed_data.json
 
       # Step 4: Commit and Push Changes
       - name: Commit and Push Data
