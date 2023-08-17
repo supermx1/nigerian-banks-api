@@ -1,68 +1,39 @@
-name: Transform JSON Data
+name: Fetch and Transform Data
 
 on:
   push:
+    branches:
+      - main
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *' # Every Day
 
 jobs:
-  transform_json:
+  fetch_and_transform:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repository
+
+      # Step 1: Checkout the repository
+      - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '18'
-
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Fetch and Transform JSON Data
+      # Step 2: Fetch data using curl
+      - name: Fetch Data
         run: |
-          const fetch = require('node-fetch');
-          const fs = require('fs');
+          curl 'https://api.airtable.com/v0/app5QplNRBqYTwfDe/Imported%20table' \
+            --header 'Authorization: Bearer ${{ secrets.NIGERIAN_BANKS_AIRTABLES }}' > data.json
+          date > last-updated.txt
 
-          const airtableEndpoint = 'https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks';
-          const transformedDataFile = 'transformed_data.json';
-          const authToken = ${{ secrets.NIGERIAN_BANKS_AIRTABLES }}; // Replace with your actual token
+      # Step 3: Transform Data
+      - name: Transform Data
+        run: |
+          # Transform the fetched data to the desired format
+          cat data.json | jq '.records[].fields' > transformed_data.json
 
-          const fetchAirtableData = async () => {
-            try {
-              const response = await fetch(airtableEndpoint, {
-                headers: {
-                  Authorization: `Bearer ${authToken}`
-                }
-              });
-              const data = await response.json();
-              return data;
-            } catch (error) {
-              console.error('Error fetching data from Airtable:', error);
-              return null;
-            }
-          };
-
-          const transformData = (originalData) => {
-            const transformedData = originalData.records.map(record => record.fields);
-            return transformedData;
-          };
-
-          (async () => {
-            const originalData = await fetchAirtableData();
-            if (originalData) {
-              const transformedData = transformData(originalData);
-              fs.writeFileSync(transformedDataFile, JSON.stringify(transformedData, null, 4));
-              console.log('Data transformation complete.');
-              
-              // Commit and push changes
-              const cp = require('child_process');
-              cp.execSync('git config --global user.email "github-actions-bot@example.com"');
-              cp.execSync('git config --global user.name "GitHub Actions Bot"');
-              cp.execSync('git add transformed_data.json');
-              cp.execSync('git commit -m "Update transformed data"');
-              cp.execSync('git push');
-            }
-          })();
+      # Step 4: Commit and Push Changes
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+          git add transformed_data.json
+          git commit -m "Transform and Fetch New Data"
+          git push
