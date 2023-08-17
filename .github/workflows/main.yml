@@ -19,7 +19,7 @@ jobs:
       # Step 2: Fetch data using curl
       - name: Fetch Data
         run: |
-          curl 'https://api.airtable.com/v0/app5QplNRBqYTwfDe/Imported%20table' \
+          curl 'https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks' \
             --header 'Authorization: Bearer ${{ secrets.NIGERIAN_BANKS_AIRTABLES }}' > data.json
           date > last-updated.txt
 
