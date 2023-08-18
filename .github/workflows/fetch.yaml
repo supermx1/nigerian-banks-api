@@ -28,7 +28,7 @@ jobs:
       - name: Get API Data
         run: |
           pwd
-          ls -R
+          ls
           node index.js
           date > last-updated.txt
           
