@@ -27,11 +27,8 @@ jobs:
       # Step 4: Run the script
       - name: Get API Data
         run: |
-          ls -la # Check the current directory contents
-          sh run.sh
           node index.js
-          pwd  # Print current directory path
-          ls -la  # Check the updated directory contents
+          date > last_updated.txt
 
       # Step 5: Push the data
       - name: Push Data
