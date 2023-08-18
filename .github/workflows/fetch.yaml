@@ -11,7 +11,7 @@ jobs:
 
       # Step 1: Checkout the repo
       - name: Check out code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
       # Step 2: Install Node.js
       - name: Install Node.js
