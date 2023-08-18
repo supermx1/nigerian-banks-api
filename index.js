@@ -20,7 +20,6 @@ async function getData() {
                 }
             }
         );
-
     } catch (e) {
         console.log(e);
     }
