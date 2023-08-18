@@ -1,5 +1,6 @@
 name: Get API Data
 on:
+  push:
   schedule:
     - cron: '0 0 * * *'
 
