@@ -27,10 +27,10 @@ jobs:
       # Step 4: Run the script
       - name: Get API Data
         run: |
+          node index.js
+          sh run.sh
           pwd
           ls
-          node index.js
-          date > last-updated.txt
           
       # Step 5: Push the data
       - name: Push Data
