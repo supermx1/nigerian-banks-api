@@ -38,8 +38,6 @@ jobs:
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
-          git status  # Check git status
           git add -A
-          git status  # Check git status after adding
           git commit -am "Fetch New Data"
-          git push -v  # Use verbose mode for detailed output
+          git push
