@@ -10,35 +10,36 @@ jobs:
     steps:
 
       # Step 1: Checkout the repo
-      - name: Get API Data
+      - name: Check out code
         uses: actions/checkout@v3
 
       # Step 2: Install Node.js
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
-            node-version: 18
+          node-version: 18
 
       # Step 3: Install dependencies
       - name: Install dependencies
         run: |
-            npm install
+          npm install
 
       # Step 4: Run the script
       - name: Get API Data
         run: |
+          ls -la # Check the current directory contents
           node index.js
           sh run.sh
-          pwd
-          ls
-          
+          pwd  # Print current directory path
+          ls -la  # Check the updated directory contents
+
       # Step 5: Push the data
       - name: Push Data
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+          git status  # Check git status
           git add -A data.json
+          git status  # Check git status after adding
           git commit -am "Fetch New Data"
-          git push
-          
-          
+          git push -v  # Use verbose mode for detailed output
