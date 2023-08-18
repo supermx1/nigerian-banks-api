@@ -13,7 +13,7 @@ async function getData() {
         })
         const data = await response.json();
         const transformedData = transformData(data);
-        fs.writeFile("data.json", JSON.stringify(transformedData, null, 4), err => {
+        fs.writeFile("./data.json", JSON.stringify(transformedData, null, 4), err => {
                 if (err) {
                     console.error(err);
                 }
