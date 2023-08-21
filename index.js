@@ -3,7 +3,6 @@ const fs = require('fs');
 const API_KEY = "patRUpBeeifv109br.f615a44205bfc0332ac62afae81405accdc1d7f0055f14454d7c46e26f31be08";
 const URL = "https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks";
 
-
 async function getData() {
     try {
         const response = await fetch(URL, {

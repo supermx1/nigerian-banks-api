@@ -1,4 +1,4 @@
-name: Get API Data
+name: Get API Data From Airtable
 on:
   push:
   schedule:
