@@ -4,14 +4,14 @@
         "name": "Branch International Financial Services Limited",
         "slug": "branch",
         "code": "FC40163",
-        "logo": "/logos/branch.png"
+        "logo": "logos/branch.png"
     },
     {
         "id": 167,
         "name": "Eyowo",
         "slug": "eyowo",
         "code": "50126",
-        "logo": "/logos/eyowo.png"
+        "logo": "logos/eyowo.png"
     },
     {
         "longcode": "null",
@@ -19,28 +19,28 @@
         "name": "Platinum Mortgage Bank",
         "slug": "platinum-mortgage-bank-ng",
         "code": "268",
-        "logo": "/logos/platinum-mortgage-bank-ng.png"
+        "logo": "logos/platinum-mortgage-bank-ng.png"
     },
     {
         "id": 283,
         "name": "Corestep MFB",
         "slug": "corestep-mfb",
         "code": "50204",
-        "logo": "/logos/corestep-mfb.png"
+        "logo": "logos/corestep-mfb.png"
     },
     {
         "id": 108,
         "name": "Bowen Microfinance Bank",
         "slug": "bowen-microfinance-bank",
         "code": "50931",
-        "logo": "/logos/bowen-microfinance-bank.png"
+        "logo": "logos/bowen-microfinance-bank.png"
     },
     {
         "id": 282,
         "name": "Unical MFB",
         "slug": "unical-mfb",
         "code": "50871",
-        "logo": "/logos/unical-mfb.png"
+        "logo": "logos/unical-mfb.png"
     },
     {
         "longcode": "51355",
@@ -48,21 +48,21 @@
         "name": "Waya Microfinance Bank",
         "slug": "waya-microfinance-bank-ng",
         "code": "51355",
-        "logo": "/logos/waya-microfinance-bank-ng.png"
+        "logo": "logos/waya-microfinance-bank-ng.png"
     },
     {
         "id": 629,
         "name": "Titan Paystack",
         "slug": "titan-paystack",
         "code": "100039",
-        "logo": "/logos/titan-paystack.png"
+        "logo": "logos/titan-paystack.png"
     },
     {
         "id": 69,
         "name": "Rubies MFB",
         "slug": "rubies-mfb",
         "code": "125",
-        "logo": "/logos/rubies-mfb.png"
+        "logo": "logos/rubies-mfb.png"
     },
     {
         "longcode": "030159992",
@@ -70,7 +70,7 @@
         "name": "Heritage Bank",
         "slug": "heritage-bank",
         "code": "030",
-        "logo": "/logos/heritage-bank.png"
+        "logo": "logos/heritage-bank.png"
     },
     {
         "longcode": "058152036",
@@ -79,7 +79,7 @@
         "slug": "guaranty-trust-bank",
         "ussd": "*737#",
         "code": "058",
-        "logo": "/logos/guaranty-trust-bank.png"
+        "logo": "logos/guaranty-trust-bank.png"
     },
     {
         "longcode": "232150016",
@@ -87,21 +87,21 @@
         "name": "Sterling Bank",
         "slug": "sterling-bank",
         "code": "232",
-        "logo": "/logos/sterling-bank.png"
+        "logo": "logos/sterling-bank.png"
     },
     {
         "id": 183,
         "name": "GoMoney",
         "slug": "gomoney",
         "code": "100022",
-        "logo": "/logos/gomoney.png"
+        "logo": "logos/gomoney.png"
     },
     {
         "id": 109,
         "name": "Lagos Building Investment Company Plc.",
         "slug": "lbic-plc",
         "code": "90052",
-        "logo": "/logos/lbic-plc.png"
+        "logo": "logos/lbic-plc.png"
     },
     {
         "longcode": "033153513",
@@ -110,7 +110,7 @@
         "slug": "united-bank-for-africa",
         "ussd": "*919#",
         "code": "033",
-        "logo": "/logos/united-bank-for-africa.png"
+        "logo": "logos/united-bank-for-africa.png"
     },
     {
         "longcode": "51113",
@@ -118,7 +118,7 @@
         "name": "Safe Haven MFB",
         "slug": "safe-haven-mfb-ng",
         "code": "51113",
-        "logo": "/logos/safe-haven-mfb-ng.png"
+        "logo": "logos/safe-haven-mfb-ng.png"
     },
     {
         "longcode": "050150010",
@@ -126,63 +126,63 @@
         "name": "Ecobank Nigeria",
         "slug": "ecobank-nigeria",
         "code": "050",
-        "logo": "/logos/ecobank-nigeria.png"
+        "logo": "logos/ecobank-nigeria.png"
     },
     {
         "id": 614,
         "name": "Aramoko MFB",
         "slug": "aramoko-mfb",
         "code": "50083",
-        "logo": "/logos/aramoko-mfb.png"
+        "logo": "logos/aramoko-mfb.png"
     },
     {
         "id": 180,
         "name": "Links MFB",
         "slug": "links-mfb",
         "code": "50549",
-        "logo": "/logos/links-mfb.png"
+        "logo": "logos/links-mfb.png"
     },
     {
         "id": 110,
         "name": "Parkway - ReadyCash",
         "slug": "parkway-ready-cash",
         "code": "311",
-        "logo": "/logos/parkway-ready-cash.png"
+        "logo": "logos/parkway-ready-cash.png"
     },
     {
         "id": 174,
         "name": "Abbey Mortgage Bank",
         "slug": "abbey-mortgage-bank",
         "code": "801",
-        "logo": "/logos/abbey-mortgage-bank.png"
+        "logo": "logos/abbey-mortgage-bank.png"
     },
     {
         "id": 679,
         "name": "ROCKSHIELD MICROFINANCE BANK",
         "slug": "rockshield-microfinance-bank-ng",
         "code": "50767",
-        "logo": "/logos/rockshield-microfinance-bank-ng.png"
+        "logo": "logos/rockshield-microfinance-bank-ng.png"
     },
     {
         "id": 67,
         "name": "Kuda Bank",
         "slug": "kuda-bank",
         "code": "50211",
-        "logo": "/logos/kuda-bank.png"
+        "logo": "logos/kuda-bank.png"
     },
     {
         "id": 495,
         "name": "Accion Microfinance Bank",
         "slug": "accion-microfinance-bank-ng",
         "code": "602",
-        "logo": "/logos/accion-microfinance-bank-ng.png"
+        "logo": "logos/accion-microfinance-bank-ng.png"
     },
     {
         "id": 181,
         "name": "Bainescredit MFB",
         "slug": "bainescredit-mfb",
         "code": "51229",
-        "logo": "/logos/bainescredit-mfb.png"
+        "logo": "logos/bainescredit-mfb.png"
     },
     {
         "longcode": "50743",
@@ -190,7 +190,7 @@
         "name": "Peace Microfinance Bank",
         "slug": "peace-microfinance-bank-ng",
         "code": "50743",
-        "logo": "/logos/peace-microfinance-bank-ng.png"
+        "logo": "logos/peace-microfinance-bank-ng.png"
     },
     {
         "longcode": "103015001",
@@ -198,14 +198,14 @@
         "name": "Globus Bank",
         "slug": "globus-bank",
         "code": "00103",
-        "logo": "/logos/globus-bank.png"
+        "logo": "logos/globus-bank.png"
     },
     {
         "id": 297,
         "name": "Astrapolaris MFB LTD",
         "slug": "astrapolaris-mfb",
         "code": "MFB50094",
-        "logo": "/logos/astrapolaris-mfb.png"
+        "logo": "logos/astrapolaris-mfb.png"
     },
     {
         "longcode": "null",
@@ -213,21 +213,21 @@
         "name": "Moniepoint MFB",
         "slug": "moniepoint-mfb-ng",
         "code": "50515",
-        "logo": "/logos/moniepoint-mfb-ng.png"
+        "logo": "logos/moniepoint-mfb-ng.png"
     },
     {
         "id": 23,
         "name": "Suntrust Bank",
         "slug": "suntrust-bank",
         "code": "100",
-        "logo": "/logos/suntrust-bank.png"
+        "logo": "logos/suntrust-bank.png"
     },
     {
         "id": 188,
         "name": "Above Only MFB",
         "slug": "above-only-mfb",
         "code": "51204",
-        "logo": "/logos/above-only-mfb.png"
+        "logo": "logos/above-only-mfb.png"
     },
     {
         "longcode": "215154097",
@@ -235,7 +235,7 @@
         "name": "Unity Bank",
         "slug": "unity-bank",
         "code": "215",
-        "logo": "/logos/unity-bank.png"
+        "logo": "logos/unity-bank.png"
     },
     {
         "longcode": "214150018",
@@ -243,42 +243,42 @@
         "name": "First City Monument Bank",
         "slug": "first-city-monument-bank",
         "code": "214",
-        "logo": "/logos/first-city-monument-bank.png"
+        "logo": "logos/first-city-monument-bank.png"
     },
     {
         "id": 365,
         "name": "Solid Rock MFB",
         "slug": "solid-rock-mfb",
         "code": "50800",
-        "logo": "/logos/solid-rock-mfb.png"
+        "logo": "logos/solid-rock-mfb.png"
     },
     {
         "id": 72,
         "name": "Sparkle Microfinance Bank",
         "slug": "sparkle-microfinance-bank",
         "code": "51310",
-        "logo": "/logos/sparkle-microfinance-bank.png"
+        "logo": "logos/sparkle-microfinance-bank.png"
     },
     {
         "id": 295,
         "name": "Refuge Mortgage Bank",
         "slug": "refuge-mortgage-bank",
         "code": "90067",
-        "logo": "/logos/refuge-mortgage-bank.png"
+        "logo": "logos/refuge-mortgage-bank.png"
     },
     {
         "id": 636,
         "name": "Ilaro Poly Microfinance Bank",
         "slug": "ilaro-poly-microfinance-bank-ng",
         "code": "50442",
-        "logo": "/logos/ilaro-poly-microfinance-bank-ng.png"
+        "logo": "logos/ilaro-poly-microfinance-bank-ng.png"
     },
     {
         "id": 173,
         "name": "Coronation Merchant Bank",
         "slug": "coronation-merchant-bank-ng",
         "code": "559",
-        "logo": "/logos/coronation-merchant-bank-ng.png"
+        "logo": "logos/coronation-merchant-bank-ng.png"
     },
     {
         "longcode": "50840",
@@ -286,21 +286,21 @@
         "name": "U&C Microfinance Bank Ltd (U AND C MFB)",
         "slug": "uc-microfinance-bank-ltd-u-and-c-mfb-ng",
         "code": "50840",
-        "logo": "/logos/uc-microfinance-bank-ltd-u-and-c-mfb-ng.png"
+        "logo": "logos/uc-microfinance-bank-ltd-u-and-c-mfb-ng.png"
     },
     {
         "id": 68,
         "name": "TAJ Bank",
         "slug": "taj-bank",
         "code": "302",
-        "logo": "/logos/taj-bank.png"
+        "logo": "logos/taj-bank.png"
     },
     {
         "id": 233,
         "name": "Lotus Bank",
         "slug": "lotus-bank",
         "code": "303",
-        "logo": "/logos/lotus-bank.png"
+        "logo": "logos/lotus-bank.png"
     },
     {
         "longcode": "000031",
@@ -308,7 +308,7 @@
         "name": "PremiumTrust Bank",
         "slug": "premiumtrust-bank-ng",
         "code": "105",
-        "logo": "/logos/premiumtrust-bank-ng.png"
+        "logo": "logos/premiumtrust-bank-ng.png"
     },
     {
         "longcode": "120001",
@@ -316,7 +316,7 @@
         "name": "9mobile 9Payment Service Bank",
         "slug": "9mobile-9payment-service-bank-ng",
         "code": "120001",
-        "logo": "/logos/9mobile-9payment-service-bank-ng.png"
+        "logo": "logos/9mobile-9payment-service-bank-ng.png"
     },
     {
         "longcode": "120003",
@@ -324,21 +324,21 @@
         "name": "MTN Momo PSB",
         "slug": "mtn-momo-psb-ng",
         "code": "120003",
-        "logo": "/logos/mtn-momo-psb-ng.png"
+        "logo": "logos/mtn-momo-psb-ng.png"
     },
     {
         "id": 75,
         "name": "TCF MFB",
         "slug": "tcf-mfb",
         "code": "51211",
-        "logo": "/logos/tcf-mfb.png"
+        "logo": "logos/tcf-mfb.png"
     },
     {
         "id": 168,
         "name": "Ibile Microfinance Bank",
         "slug": "ibile-mfb",
         "code": "51244",
-        "logo": "/logos/ibile-mfb.png"
+        "logo": "logos/ibile-mfb.png"
     },
     {
         "longcode": "865",
@@ -346,56 +346,56 @@
         "name": "CASHCONNECT MFB",
         "slug": "cashconnect-mfb-ng",
         "code": "865",
-        "logo": "/logos/cashconnect-mfb-ng.png"
+        "logo": "logos/cashconnect-mfb-ng.png"
     },
     {
         "id": 172,
         "name": "Infinity MFB",
         "slug": "infinity-mfb",
         "code": "50457",
-        "logo": "/logos/infinity-mfb.png"
+        "logo": "logos/infinity-mfb.png"
     },
     {
         "id": 25,
         "name": "Providus Bank",
         "slug": "providus-bank",
         "code": "101",
-        "logo": "/logos/providus-bank.png"
+        "logo": "logos/providus-bank.png"
     },
     {
         "id": 682,
         "name": "FirstTrust Mortgage Bank Nigeria",
         "slug": "firsttrust-mortgage-bank-nigeria-ng",
         "code": "413",
-        "logo": "/logos/firsttrust-mortgage-bank-nigeria-ng.png"
+        "logo": "logos/firsttrust-mortgage-bank-nigeria-ng.png"
     },
     {
         "id": 628,
         "name": "Ekimogun MFB",
         "slug": "ekimogun-mfb-ng",
         "code": "50263",
-        "logo": "/logos/ekimogun-mfb-ng.png"
+        "logo": "logos/ekimogun-mfb-ng.png"
     },
     {
         "id": 635,
         "name": "Goodnews Microfinance Bank",
         "slug": "goodnews-microfinance-bank-ng",
         "code": "50739",
-        "logo": "/logos/goodnews-microfinance-bank-ng.png"
+        "logo": "logos/goodnews-microfinance-bank-ng.png"
     },
     {
         "id": 638,
         "name": "Unilag Microfinance Bank",
         "slug": "unilag-microfinance-bank-ng",
         "code": "51316",
-        "logo": "/logos/unilag-microfinance-bank-ng.png"
+        "logo": "logos/unilag-microfinance-bank-ng.png"
     },
     {
         "id": 176,
         "name": "Rand Merchant Bank",
         "slug": "rand-merchant-bank",
         "code": "502",
-        "logo": "/logos/rand-merchant-bank.png"
+        "logo": "logos/rand-merchant-bank.png"
     },
     {
         "longcode": "032080474",
@@ -403,14 +403,14 @@
         "name": "Union Bank of Nigeria",
         "slug": "union-bank-of-nigeria",
         "code": "032",
-        "logo": "/logos/union-bank-of-nigeria.png"
+        "logo": "logos/union-bank-of-nigeria.png"
     },
     {
         "id": 177,
         "name": "Firmus MFB",
         "slug": "firmus-mfb",
         "code": "51314",
-        "logo": "/logos/firmus-mfb.png"
+        "logo": "logos/firmus-mfb.png"
     },
     {
         "longcode": "076151006",
@@ -418,35 +418,35 @@
         "name": "Polaris Bank",
         "slug": "polaris-bank",
         "code": "076",
-        "logo": "/logos/polaris-bank.png"
+        "logo": "logos/polaris-bank.png"
     },
     {
         "id": 285,
         "name": "Stellas MFB",
         "slug": "stellas-mfb",
         "code": "51253",
-        "logo": "/logos/stellas-mfb.png"
+        "logo": "logos/stellas-mfb.png"
     },
     {
         "id": 695,
         "name": "Solid Allianze MFB",
         "slug": "solid-allianze-mfb",
         "code": "51062",
-        "logo": "/logos/solid-allianze-mfb.png"
+        "logo": "logos/solid-allianze-mfb.png"
     },
     {
         "id": 287,
         "name": "Gateway Mortgage Bank LTD",
         "slug": "gateway-mortgage-bank",
         "code": "812",
-        "logo": "/logos/gateway-mortgage-bank.png"
+        "logo": "logos/gateway-mortgage-bank.png"
     },
     {
         "id": 74,
         "name": "CEMCS Microfinance Bank",
         "slug": "cemcs-microfinance-bank",
         "code": "50823",
-        "logo": "/logos/cemcs-microfinance-bank.png"
+        "logo": "logos/cemcs-microfinance-bank.png"
     },
     {
         "longcode": "50910",
@@ -454,21 +454,21 @@
         "name": "Consumer Microfinance Bank",
         "slug": "consumer-microfinance-bank-ng",
         "code": "50910",
-        "logo": "/logos/consumer-microfinance-bank-ng.png"
+        "logo": "logos/consumer-microfinance-bank-ng.png"
     },
     {
         "id": 81,
         "name": "Hasal Microfinance Bank",
         "slug": "hasal-microfinance-bank",
         "code": "50383",
-        "logo": "/logos/hasal-microfinance-bank.png"
+        "logo": "logos/hasal-microfinance-bank.png"
     },
     {
         "id": 82,
         "name": "Carbon",
         "slug": "carbon",
         "code": "565",
-        "logo": "/logos/carbon.png"
+        "logo": "logos/carbon.png"
     },
     {
         "longcode": "082150017",
@@ -476,21 +476,21 @@
         "name": "Keystone Bank",
         "slug": "keystone-bank",
         "code": "082",
-        "logo": "/logos/keystone-bank.png"
+        "logo": "logos/keystone-bank.png"
     },
     {
         "id": 615,
         "name": "Ikoyi Osun MFB",
         "slug": "ikoyi-osun-mfb",
         "code": "50439",
-        "logo": "/logos/ikoyi-osun-mfb.png"
+        "logo": "logos/ikoyi-osun-mfb.png"
     },
     {
         "id": 689,
         "name": "AMPERSAND MICROFINANCE BANK",
         "slug": "ampersand-microfinance-bank-ng",
         "code": "51341",
-        "logo": "/logos/ampersand-microfinance-bank-ng.png"
+        "logo": "logos/ampersand-microfinance-bank-ng.png"
     },
     {
         "longcode": "null",
@@ -498,7 +498,7 @@
         "name": "Chikum Microfinance bank",
         "slug": "chikum-microfinance-bank-ng",
         "code": "312",
-        "logo": "/logos/chikum-microfinance-bank-ng.png"
+        "logo": "logos/chikum-microfinance-bank-ng.png"
     },
     {
         "longcode": "090629",
@@ -506,7 +506,7 @@
         "name": "Amegy Microfinance Bank",
         "slug": "amegy-microfinance-bank-ng",
         "code": "090629",
-        "logo": "/logos/amegy-microfinance-bank-ng.png"
+        "logo": "logos/amegy-microfinance-bank-ng.png"
     },
     {
         "longcode": "50453",
@@ -514,7 +514,7 @@
         "name": "Imowo MFB",
         "slug": "imowo-mfb-ng",
         "code": "50453",
-        "logo": "/logos/imowo-mfb-ng.png"
+        "logo": "logos/imowo-mfb-ng.png"
     },
     {
         "longcode": "null",
@@ -522,7 +522,7 @@
         "name": "SAGE GREY FINANCE LIMITED",
         "slug": "sage-grey-finance-limited-ng",
         "code": "40165",
-        "logo": "/logos/sage-grey-finance-limited-ng.png"
+        "logo": "logos/sage-grey-finance-limited-ng.png"
     },
     {
         "longcode": "null",
@@ -530,7 +530,7 @@
         "name": "Polyunwana MFB",
         "slug": "polyunwana-mfb-ng",
         "code": "50864",
-        "logo": "/logos/polyunwana-mfb-ng.png"
+        "logo": "logos/polyunwana-mfb-ng.png"
     },
     {
         "longcode": "057150013",
@@ -539,7 +539,7 @@
         "slug": "zenith-bank",
         "ussd": "*966#",
         "code": "057",
-        "logo": "/logos/zenith-bank.png"
+        "logo": "logos/zenith-bank.png"
     },
     {
         "longcode": "070150003",
@@ -547,7 +547,7 @@
         "name": "Fidelity Bank",
         "slug": "fidelity-bank",
         "code": "070",
-        "logo": "/logos/fidelity-bank.png"
+        "logo": "logos/fidelity-bank.png"
     },
     {
         "longcode": "068150015",
@@ -555,42 +555,42 @@
         "name": "Standard Chartered Bank",
         "slug": "standard-chartered-bank",
         "code": "068",
-        "logo": "/logos/standard-chartered-bank.png"
+        "logo": "logos/standard-chartered-bank.png"
     },
     {
         "id": 627,
         "name": "Abulesoro MFB",
         "slug": "abulesoro-mfb-ng",
         "code": "51312",
-        "logo": "/logos/abulesoro-mfb-ng.png"
+        "logo": "logos/abulesoro-mfb-ng.png"
     },
     {
         "id": 187,
         "name": "Kadpoly MFB",
         "slug": "kadpoly-mfb",
         "code": "50502",
-        "logo": "/logos/kadpoly-mfb.png"
+        "logo": "logos/kadpoly-mfb.png"
     },
     {
         "id": 232,
         "name": "QuickFund MFB",
         "slug": "quickfund-mfb",
         "code": "51293",
-        "logo": "/logos/quickfund-mfb.png"
+        "logo": "logos/quickfund-mfb.png"
     },
     {
         "id": 26,
         "name": "Parallex Bank",
         "slug": "parallex-bank",
         "code": "104",
-        "logo": "/logos/parallex-bank.png"
+        "logo": "logos/parallex-bank.png"
     },
     {
         "id": 296,
         "name": "Living Trust Mortgage Bank",
         "slug": "living-trust-mortgage-bank",
         "code": "031",
-        "logo": "/logos/living-trust-mortgage-bank.png"
+        "logo": "logos/living-trust-mortgage-bank.png"
     },
     {
         "longcode": "221159522",
@@ -598,21 +598,21 @@
         "name": "Stanbic IBTC Bank",
         "slug": "stanbic-ibtc-bank",
         "code": "221",
-        "logo": "/logos/stanbic-ibtc-bank.png"
+        "logo": "logos/stanbic-ibtc-bank.png"
     },
     {
         "id": 186,
         "name": "Tangerine Money",
         "slug": "tangerine-money",
         "code": "51269",
-        "logo": "/logos/tangerine-money.png"
+        "logo": "logos/tangerine-money.png"
     },
     {
         "id": 64,
         "name": "Ekondo Microfinance Bank",
         "slug": "ekondo-microfinance-bank-ng",
         "code": "098",
-        "logo": "/logos/ekondo-microfinance-bank-ng.png"
+        "logo": "logos/ekondo-microfinance-bank-ng.png"
     },
     {
         "longcode": "50315",
@@ -620,7 +620,7 @@
         "name": "FLOURISH MFB",
         "slug": "flourish-mfb-ng",
         "code": "50315",
-        "logo": "/logos/flourish-mfb-ng.png"
+        "logo": "logos/flourish-mfb-ng.png"
     },
     {
         "longcode": "00107",
@@ -628,14 +628,14 @@
         "name": "Optimus Bank Limited",
         "slug": "optimus-bank-ltd",
         "code": "107",
-        "logo": "/logos/optimus-bank-ltd.png"
+        "logo": "logos/optimus-bank-ltd.png"
     },
     {
         "id": 637,
         "name": "Dot Microfinance Bank",
         "slug": "dot-microfinance-bank-ng",
         "code": "50162",
-        "logo": "/logos/dot-microfinance-bank-ng.png"
+        "logo": "logos/dot-microfinance-bank-ng.png"
     },
     {
         "longcode": "511080896",
@@ -643,7 +643,7 @@
         "name": "Amju Unique MFB",
         "slug": "amju-unique-mfb",
         "code": "50926",
-        "logo": "/logos/amju-unique-mfb.png"
+        "logo": "logos/amju-unique-mfb.png"
     },
     {
         "longcode": "120002",
@@ -651,7 +651,7 @@
         "name": "HopePSB",
         "slug": "hopepsb-ng",
         "code": "120002",
-        "logo": "/logos/hopepsb-ng.png"
+        "logo": "logos/hopepsb-ng.png"
     },
     {
         "longcode": "011151003",
@@ -659,7 +659,7 @@
         "name": "First Bank of Nigeria",
         "slug": "first-bank-of-nigeria",
         "code": "011",
-        "logo": "/logos/first-bank-of-nigeria.png"
+        "logo": "logos/first-bank-of-nigeria.png"
     },
     {
         "longcode": "063150162",
@@ -667,28 +667,28 @@
         "name": "Access Bank (Diamond)",
         "slug": "access-bank-diamond",
         "code": "063",
-        "logo": "/logos/access-bank-diamond.png"
+        "logo": "logos/access-bank-diamond.png"
     },
     {
         "id": 630,
         "name": "Uhuru MFB",
         "slug": "uhuru-mfb-ng",
         "code": "MFB51322",
-        "logo": "/logos/uhuru-mfb-ng.png"
+        "logo": "logos/uhuru-mfb-ng.png"
     },
     {
         "id": 609,
         "name": "Safe Haven Microfinance Bank Limited",
         "slug": "safe-haven-microfinance-bank-limited-ng",
         "code": "951113",
-        "logo": "/logos/safe-haven-microfinance-bank-limited-ng.png"
+        "logo": "logos/safe-haven-microfinance-bank-limited-ng.png"
     },
     {
         "id": 632,
         "name": "Shield MFB",
         "slug": "shield-mfb-ng",
         "code": "50582",
-        "logo": "/logos/shield-mfb-ng.png"
+        "logo": "logos/shield-mfb-ng.png"
     },
     {
         "longcode": "50171",
@@ -696,7 +696,7 @@
         "name": "Chanelle Microfinance Bank Limited",
         "slug": "chanelle-microfinance-bank-limited-ng",
         "code": "50171",
-        "logo": "/logos/chanelle-microfinance-bank-limited-ng.png"
+        "logo": "logos/chanelle-microfinance-bank-limited-ng.png"
     },
     {
         "longcode": "301080020",
@@ -704,7 +704,7 @@
         "name": "Jaiz Bank",
         "slug": "jaiz-bank",
         "code": "301",
-        "logo": "/logos/jaiz-bank.png"
+        "logo": "logos/jaiz-bank.png"
     },
     {
         "longcode": "044150149",
@@ -712,28 +712,28 @@
         "name": "Access Bank",
         "slug": "access-bank",
         "code": "044",
-        "logo": "/logos/access-bank.png"
+        "logo": "logos/access-bank.png"
     },
     {
         "id": 71,
         "name": "VFD Microfinance Bank Limited",
         "slug": "vfd",
         "code": "566",
-        "logo": "/logos/vfd.png"
+        "logo": "logos/vfd.png"
     },
     {
         "id": 184,
         "name": "Kredi Money MFB LTD",
         "slug": "kredi-money-mfb",
         "code": "50200",
-        "logo": "/logos/kredi-money-mfb.png"
+        "logo": "logos/kredi-money-mfb.png"
     },
     {
         "id": 178,
         "name": "Mint MFB",
         "slug": "mint-mfb",
         "code": "50304",
-        "logo": "/logos/mint-mfb.png"
+        "logo": "logos/mint-mfb.png"
     },
     {
         "longcode": "120004",
@@ -741,6 +741,6 @@
         "name": "Airtel Smartcash PSB",
         "slug": "airtel-smartcash-psb-ng",
         "code": "120004",
-        "logo": "/logos/airtel-smartcash-psb-ng.png"
+        "logo": "logos/airtel-smartcash-psb-ng.png"
     }
 ]
