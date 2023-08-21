@@ -18,11 +18,11 @@ async function getData() {
            const logoURL = bank?.logo?.[0]?.url || undefined;
            if(logoURL) {
                try {
-                     exec(`wget ${logoURL} -O ./logos/${bank.slug}.svg`, console.log);
+                     exec(`wget ${logoURL} -O ./logos/${bank.slug}.png`, console.log);
                }
                catch (e) {}
            }
-           bank.logo = `/logos/${bank.slug}.svg`;
+           bank.logo = `/logos/${bank.slug}.png`;
         });
 
         fs.writeFile("./data.json", JSON.stringify(transformedData, null, 4), err => {
