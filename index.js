@@ -22,7 +22,7 @@ async function getData() {
                }
                catch (e) {}
            }
-           bank.logo = `/logos/${bank.slug}.png`;
+           bank.logo = `logos/${bank.slug}.png`;
         });
 
         fs.writeFile("./data.json", JSON.stringify(transformedData, null, 4), err => {
