@@ -1,7 +1,7 @@
 const fs = require('fs');
 const exec = require('child_process').exec;
 
-const API_KEY = "patRUpBeeifv109br.f615a44205bfc0332ac62afae81405accdc1d7f0055f14454d7c46e26f31be08";
+const API_KEY = process.env.NIGERIAN_BANKS_AIRTABLES;
 const URL = "https://api.airtable.com/v0/appOcPmkuwy3wxipe/Banks";
 
 async function getData() {
@@ -21,8 +21,11 @@ async function getData() {
                      exec(`wget ${logoURL} -O ./logos/${bank.slug}.png`, console.log);
                }
                catch (e) {}
+               bank.logo = `logos/${bank.slug}.png`;
+           } else {
+               bank.logo = `logos/bankicon.png`;
            }
-           bank.logo = `logos/${bank.slug}.png`;
+
         });
 
         fs.writeFile("./data.json", JSON.stringify(transformedData, null, 4), err => {

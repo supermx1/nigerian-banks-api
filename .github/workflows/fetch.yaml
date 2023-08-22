@@ -27,6 +27,7 @@ jobs:
       # Step 4: Run the script
       - name: Get API Data
         run: |
+          export NIGERIAN_BANKS_AIRTABLES="${{ secrets.NIGERIAN_BANKS_AIRTABLES }}"
           node index.js
           date > last_updated.txt
 
