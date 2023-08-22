@@ -10,6 +10,7 @@
         "id": 167,
         "name": "Eyowo",
         "slug": "eyowo",
+        "ussd": "*4255#",
         "code": "50126",
         "logo": "logos/eyowo.png"
     },
@@ -69,6 +70,7 @@
         "id": 10,
         "name": "Heritage Bank",
         "slug": "heritage-bank",
+        "ussd": "*745#",
         "code": "030",
         "logo": "logos/heritage-bank.png"
     },
@@ -78,6 +80,7 @@
         "name": "Guaranty Trust Bank",
         "slug": "guaranty-trust-bank",
         "ussd": "*737#",
+        "ussd_transfer": "*737*1*{{ amt }}*{{ acc }}#",
         "code": "058",
         "logo": "logos/guaranty-trust-bank.png"
     },
@@ -86,6 +89,7 @@
         "id": 16,
         "name": "Sterling Bank",
         "slug": "sterling-bank",
+        "ussd": "*822#",
         "code": "232",
         "logo": "logos/sterling-bank.png"
     },
@@ -125,6 +129,7 @@
         "id": 4,
         "name": "Ecobank Nigeria",
         "slug": "ecobank-nigeria",
+        "ussd": "*326#",
         "code": "050",
         "logo": "logos/ecobank-nigeria.png"
     },
@@ -174,6 +179,7 @@
         "id": 495,
         "name": "Accion Microfinance Bank",
         "slug": "accion-microfinance-bank-ng",
+        "ussd": "*572#",
         "code": "602",
         "logo": "logos/accion-microfinance-bank-ng.png"
     },
@@ -234,6 +240,7 @@
         "id": 19,
         "name": "Unity Bank",
         "slug": "unity-bank",
+        "ussd": "*7799#",
         "code": "215",
         "logo": "logos/unity-bank.png"
     },
@@ -242,6 +249,8 @@
         "id": 8,
         "name": "First City Monument Bank",
         "slug": "first-city-monument-bank",
+        "ussd": "*329#",
+        "ussd_transfer": "*329*{{ amt }}*{{ acc }}#",
         "code": "214",
         "logo": "logos/first-city-monument-bank.png"
     },
@@ -292,6 +301,8 @@
         "id": 68,
         "name": "TAJ Bank",
         "slug": "taj-bank",
+        "ussd": "*898#",
+        "ussd_transfer": "*898*{{ amt }}*{{ acc }}#",
         "code": "302",
         "logo": "logos/taj-bank.png"
     },
@@ -402,6 +413,7 @@
         "id": 17,
         "name": "Union Bank of Nigeria",
         "slug": "union-bank-of-nigeria",
+        "ussd": "*826#",
         "code": "032",
         "logo": "logos/union-bank-of-nigeria.png"
     },
@@ -417,6 +429,7 @@
         "id": 13,
         "name": "Polaris Bank",
         "slug": "polaris-bank",
+        "ussd": "*833#",
         "code": "076",
         "logo": "logos/polaris-bank.png"
     },
@@ -546,6 +559,7 @@
         "id": 6,
         "name": "Fidelity Bank",
         "slug": "fidelity-bank",
+        "ussd": "*770#",
         "code": "070",
         "logo": "logos/fidelity-bank.png"
     },
@@ -597,6 +611,7 @@
         "id": 14,
         "name": "Stanbic IBTC Bank",
         "slug": "stanbic-ibtc-bank",
+        "ussd": "*909#",
         "code": "221",
         "logo": "logos/stanbic-ibtc-bank.png"
     },
@@ -658,6 +673,7 @@
         "id": 7,
         "name": "First Bank of Nigeria",
         "slug": "first-bank-of-nigeria",
+        "ussd": "*894#",
         "code": "011",
         "logo": "logos/first-bank-of-nigeria.png"
     },
@@ -711,6 +727,7 @@
         "id": 1,
         "name": "Access Bank",
         "slug": "access-bank",
+        "ussd": "*901#",
         "code": "044",
         "logo": "logos/access-bank.png"
     },
