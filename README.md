@@ -7,7 +7,7 @@ You can use the public endpoint by making a GET request to
 ```
 https://supermx1.github.io/nigerian-banks-api/data.json
 ```
-or 
+or
 
 Use JSDelivr CDN by making a GET request to
 
