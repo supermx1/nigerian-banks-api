@@ -158,6 +158,7 @@
         "id": 174,
         "name": "Abbey Mortgage Bank",
         "slug": "abbey-mortgage-bank",
+        "ussd": "*332#",
         "code": "801",
         "logo": "logos/abbey-mortgage-bank.png"
     },
@@ -218,6 +219,7 @@
         "id": 688,
         "name": "Moniepoint MFB",
         "slug": "moniepoint-mfb-ng",
+        "ussd": "*888#",
         "code": "50515",
         "logo": "logos/moniepoint-mfb-ng.png"
     },
@@ -326,6 +328,7 @@
         "id": 302,
         "name": "9mobile 9Payment Service Bank",
         "slug": "9mobile-9payment-service-bank-ng",
+        "ussd": "*990# ",
         "code": "120001",
         "logo": "logos/9mobile-9payment-service-bank-ng.png"
     },
@@ -334,6 +337,7 @@
         "id": 303,
         "name": "MTN Momo PSB",
         "slug": "mtn-momo-psb-ng",
+        "ussd": "*671#",
         "code": "120003",
         "logo": "logos/mtn-momo-psb-ng.png"
     },
@@ -488,6 +492,7 @@
         "id": 11,
         "name": "Keystone Bank",
         "slug": "keystone-bank",
+        "ussd": "*7111#",
         "code": "082",
         "logo": "logos/keystone-bank.png"
     },
@@ -682,6 +687,8 @@
         "id": 3,
         "name": "Access Bank (Diamond)",
         "slug": "access-bank-diamond",
+        "ussd": "*901#",
+        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#",
         "code": "063",
         "logo": "logos/access-bank-diamond.png"
     },
@@ -719,6 +726,7 @@
         "id": 22,
         "name": "Jaiz Bank",
         "slug": "jaiz-bank",
+        "ussd": "*389*301#",
         "code": "301",
         "logo": "logos/jaiz-bank.png"
     },
@@ -728,6 +736,7 @@
         "name": "Access Bank",
         "slug": "access-bank",
         "ussd": "*901#",
+        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#",
         "code": "044",
         "logo": "logos/access-bank.png"
     },
@@ -735,6 +744,7 @@
         "id": 71,
         "name": "VFD Microfinance Bank Limited",
         "slug": "vfd",
+        "ussd": "*5037#",
         "code": "566",
         "logo": "logos/vfd.png"
     },
