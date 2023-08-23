@@ -72,7 +72,8 @@
         "slug": "heritage-bank",
         "ussd": "*745#",
         "code": "030",
-        "logo": "logos/heritage-bank.png"
+        "logo": "logos/heritage-bank.png",
+        "ussd_transfer": "*745*2*{{ amt }}*{{ acc }}#"
     },
     {
         "longcode": "058152036",
@@ -228,7 +229,8 @@
         "name": "Suntrust Bank",
         "slug": "suntrust-bank",
         "code": "100",
-        "logo": "logos/suntrust-bank.png"
+        "logo": "logos/suntrust-bank.png",
+        "ussd": "*5230#"
     },
     {
         "id": 188,
