@@ -62,6 +62,7 @@
         "id": 69,
         "name": "Rubies MFB",
         "slug": "rubies-mfb",
+        "ussd": " *7797#",
         "code": "125",
         "logo": "logos/rubies-mfb.png"
     },
@@ -71,9 +72,9 @@
         "name": "Heritage Bank",
         "slug": "heritage-bank",
         "ussd": "*745#",
+        "ussd_transfer": "*745*2*{{ amt }}*{{ acc }}#",
         "code": "030",
-        "logo": "logos/heritage-bank.png",
-        "ussd_transfer": "*745*2*{{ amt }}*{{ acc }}#"
+        "logo": "logos/heritage-bank.png"
     },
     {
         "longcode": "058152036",
@@ -92,7 +93,8 @@
         "slug": "sterling-bank",
         "ussd": "*822#",
         "code": "232",
-        "logo": "logos/sterling-bank.png"
+        "logo": "logos/sterling-bank.png",
+        "ussd_transfer": "*822*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 183,
@@ -175,7 +177,8 @@
         "name": "Kuda Bank",
         "slug": "kuda-bank",
         "code": "50211",
-        "logo": "logos/kuda-bank.png"
+        "logo": "logos/kuda-bank.png",
+        "ussd": "*894#"
     },
     {
         "id": 495,
@@ -228,9 +231,9 @@
         "id": 23,
         "name": "Suntrust Bank",
         "slug": "suntrust-bank",
+        "ussd": "*5230#",
         "code": "100",
-        "logo": "logos/suntrust-bank.png",
-        "ussd": "*5230#"
+        "logo": "logos/suntrust-bank.png"
     },
     {
         "id": 188,
@@ -559,7 +562,8 @@
         "slug": "zenith-bank",
         "ussd": "*966#",
         "code": "057",
-        "logo": "logos/zenith-bank.png"
+        "logo": "logos/zenith-bank.png",
+        "ussd_transfer": "*966*{{ amt }}*{{ acc }}#"
     },
     {
         "longcode": "070150003",
@@ -620,7 +624,8 @@
         "slug": "stanbic-ibtc-bank",
         "ussd": "*909#",
         "code": "221",
-        "logo": "logos/stanbic-ibtc-bank.png"
+        "logo": "logos/stanbic-ibtc-bank.png",
+        "ussd_transfer": "*909*22*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 186,
@@ -682,7 +687,8 @@
         "slug": "first-bank-of-nigeria",
         "ussd": "*894#",
         "code": "011",
-        "logo": "logos/first-bank-of-nigeria.png"
+        "logo": "logos/first-bank-of-nigeria.png",
+        "ussd_transfer": "*894*{{ amt }}*{{ acc }}#"
     },
     {
         "longcode": "063150162",
