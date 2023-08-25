@@ -92,9 +92,9 @@
         "name": "Sterling Bank",
         "slug": "sterling-bank",
         "ussd": "*822#",
+        "ussd_transfer": "*822*{{ amt }}*{{ acc }}#",
         "code": "232",
-        "logo": "logos/sterling-bank.png",
-        "ussd_transfer": "*822*{{ amt }}*{{ acc }}#"
+        "logo": "logos/sterling-bank.png"
     },
     {
         "id": 183,
@@ -176,9 +176,9 @@
         "id": 67,
         "name": "Kuda Bank",
         "slug": "kuda-bank",
+        "ussd": "*894#",
         "code": "50211",
-        "logo": "logos/kuda-bank.png",
-        "ussd": "*894#"
+        "logo": "logos/kuda-bank.png"
     },
     {
         "id": 495,
@@ -325,6 +325,7 @@
         "id": 304,
         "name": "PremiumTrust Bank",
         "slug": "premiumtrust-bank-ng",
+        "ussd": "*858#",
         "code": "105",
         "logo": "logos/premiumtrust-bank-ng.png"
     },
@@ -561,9 +562,9 @@
         "name": "Zenith Bank",
         "slug": "zenith-bank",
         "ussd": "*966#",
+        "ussd_transfer": "*966*{{ amt }}*{{ acc }}#",
         "code": "057",
-        "logo": "logos/zenith-bank.png",
-        "ussd_transfer": "*966*{{ amt }}*{{ acc }}#"
+        "logo": "logos/zenith-bank.png"
     },
     {
         "longcode": "070150003",
@@ -623,9 +624,9 @@
         "name": "Stanbic IBTC Bank",
         "slug": "stanbic-ibtc-bank",
         "ussd": "*909#",
+        "ussd_transfer": "*909*22*{{ amt }}*{{ acc }}#",
         "code": "221",
-        "logo": "logos/stanbic-ibtc-bank.png",
-        "ussd_transfer": "*909*22*{{ amt }}*{{ acc }}#"
+        "logo": "logos/stanbic-ibtc-bank.png"
     },
     {
         "id": 186,
@@ -686,9 +687,9 @@
         "name": "First Bank of Nigeria",
         "slug": "first-bank-of-nigeria",
         "ussd": "*894#",
+        "ussd_transfer": "*894*{{ amt }}*{{ acc }}#",
         "code": "011",
-        "logo": "logos/first-bank-of-nigeria.png",
-        "ussd_transfer": "*894*{{ amt }}*{{ acc }}#"
+        "logo": "logos/first-bank-of-nigeria.png"
     },
     {
         "longcode": "063150162",
