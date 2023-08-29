@@ -208,6 +208,8 @@
         "id": 70,
         "name": "Globus Bank",
         "slug": "globus-bank",
+        "ussd": "*989#",
+        "ussd_transfer": "*989*2*{{ amt }}*{{ acc }}#",
         "code": "00103",
         "logo": "logos/globus-bank.png"
     },
@@ -248,6 +250,7 @@
         "name": "Unity Bank",
         "slug": "unity-bank",
         "ussd": "*7799#",
+        "ussd_transfer": "*7799*1*{{ acc }}*{{ amt }}#",
         "code": "215",
         "logo": "logos/unity-bank.png"
     },
@@ -424,6 +427,7 @@
         "name": "Union Bank of Nigeria",
         "slug": "union-bank-of-nigeria",
         "ussd": "*826#",
+        "ussd_transfer": "*826*2*{{ amt }}*{{ acc }}#",
         "code": "032",
         "logo": "logos/union-bank-of-nigeria.png"
     },
@@ -440,6 +444,7 @@
         "name": "Polaris Bank",
         "slug": "polaris-bank",
         "ussd": "*833#",
+        "ussd_transfer": "*833*{{ amt }}*{{ acc }}#",
         "code": "076",
         "logo": "logos/polaris-bank.png"
     },
@@ -499,6 +504,7 @@
         "name": "Keystone Bank",
         "slug": "keystone-bank",
         "ussd": "*7111#",
+        "ussd_transfer": "*7111*{{ amt }}*{{ acc }}#",
         "code": "082",
         "logo": "logos/keystone-bank.png"
     },
@@ -572,6 +578,7 @@
         "name": "Fidelity Bank",
         "slug": "fidelity-bank",
         "ussd": "*770#",
+        "ussd_transfer": "*770*{{ acc }}*{{ amt }}#",
         "code": "070",
         "logo": "logos/fidelity-bank.png"
     },
@@ -735,7 +742,8 @@
         "id": 22,
         "name": "Jaiz Bank",
         "slug": "jaiz-bank",
-        "ussd": "*389*301#",
+        "ussd": "*773#",
+        "ussd_transfer": "*773*{{ amt }}*{{ acc }}#",
         "code": "301",
         "logo": "logos/jaiz-bank.png"
     },
