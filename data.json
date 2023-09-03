@@ -320,6 +320,7 @@
         "id": 233,
         "name": "Lotus Bank",
         "slug": "lotus-bank",
+        "ussd": "*5045#",
         "code": "303",
         "logo": "logos/lotus-bank.png"
     },
@@ -615,6 +616,7 @@
         "id": 26,
         "name": "Parallex Bank",
         "slug": "parallex-bank",
+        "ussd": "*1242#",
         "code": "104",
         "logo": "logos/parallex-bank.png"
     },
@@ -622,6 +624,7 @@
         "id": 296,
         "name": "Living Trust Mortgage Bank",
         "slug": "living-trust-mortgage-bank",
+        "ussd": "*723*312#",
         "code": "031",
         "logo": "logos/living-trust-mortgage-bank.png"
     },
@@ -662,6 +665,7 @@
         "id": 699,
         "name": "Optimus Bank Limited",
         "slug": "optimus-bank-ltd",
+        "ussd": "*930#",
         "code": "107",
         "logo": "logos/optimus-bank-ltd.png"
     },
