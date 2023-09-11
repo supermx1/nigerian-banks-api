@@ -116,6 +116,7 @@
         "name": "United Bank For Africa",
         "slug": "united-bank-for-africa",
         "ussd": "*919#",
+        "ussd_transfer": "*919*3*{{ amt }}*{{ acc }}#",
         "code": "033",
         "logo": "logos/united-bank-for-africa.png"
     },
