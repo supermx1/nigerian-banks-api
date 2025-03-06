@@ -10,16 +10,16 @@
         "id": 167,
         "name": "Eyowo",
         "slug": "eyowo",
-        "ussd": "*4255#",
         "code": "50126",
-        "logo": "logos/eyowo.png"
+        "logo": "logos/eyowo.png",
+        "ussd": "*4255#"
     },
     {
-        "longcode": "null",
         "id": 705,
         "name": "Platinum Mortgage Bank",
         "slug": "platinum-mortgage-bank-ng",
         "code": "268",
+        "longcode": "null",
         "logo": "logos/platinum-mortgage-bank-ng.png"
     },
     {
@@ -44,11 +44,11 @@
         "logo": "logos/unical-mfb.png"
     },
     {
-        "longcode": "51355",
         "id": 701,
         "name": "Waya Microfinance Bank",
         "slug": "waya-microfinance-bank-ng",
         "code": "51355",
+        "longcode": "51355",
         "logo": "logos/waya-microfinance-bank-ng.png"
     },
     {
@@ -62,39 +62,39 @@
         "id": 69,
         "name": "Rubies MFB",
         "slug": "rubies-mfb",
-        "ussd": " *7797#",
         "code": "125",
-        "logo": "logos/rubies-mfb.png"
+        "logo": "logos/rubies-mfb.png",
+        "ussd": " *7797#"
     },
     {
-        "longcode": "030159992",
         "id": 10,
         "name": "Heritage Bank",
         "slug": "heritage-bank",
-        "ussd": "*745#",
-        "ussd_transfer": "*745*2*{{ amt }}*{{ acc }}#",
         "code": "030",
-        "logo": "logos/heritage-bank.png"
+        "longcode": "030159992",
+        "logo": "logos/heritage-bank.png",
+        "ussd": "*745#",
+        "ussd_transfer": "*745*2*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "058152036",
         "id": 9,
         "name": "Guaranty Trust Bank",
         "slug": "guaranty-trust-bank",
-        "ussd": "*737#",
-        "ussd_transfer": "*737*1*{{ amt }}*{{ acc }}#",
         "code": "058",
-        "logo": "logos/guaranty-trust-bank.png"
+        "longcode": "058152036",
+        "logo": "logos/guaranty-trust-bank.png",
+        "ussd": "*737#",
+        "ussd_transfer": "*737*1*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "232150016",
         "id": 16,
         "name": "Sterling Bank",
         "slug": "sterling-bank",
-        "ussd": "*822#",
-        "ussd_transfer": "*822*{{ amt }}*{{ acc }}#",
         "code": "232",
-        "logo": "logos/sterling-bank.png"
+        "longcode": "232150016",
+        "logo": "logos/sterling-bank.png",
+        "ussd": "*822#",
+        "ussd_transfer": "*822*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 183,
@@ -111,31 +111,31 @@
         "logo": "logos/lbic-plc.png"
     },
     {
-        "longcode": "033153513",
         "id": 18,
         "name": "United Bank For Africa",
         "slug": "united-bank-for-africa",
-        "ussd": "*919#",
-        "ussd_transfer": "*919*3*{{ amt }}*{{ acc }}#",
         "code": "033",
-        "logo": "logos/united-bank-for-africa.png"
+        "longcode": "033153513",
+        "logo": "logos/united-bank-for-africa.png",
+        "ussd": "*919#",
+        "ussd_transfer": "*919*3*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "51113",
         "id": 286,
         "name": "Safe Haven MFB",
         "slug": "safe-haven-mfb-ng",
         "code": "51113",
+        "longcode": "51113",
         "logo": "logos/safe-haven-mfb-ng.png"
     },
     {
-        "longcode": "050150010",
         "id": 4,
         "name": "Ecobank Nigeria",
         "slug": "ecobank-nigeria",
-        "ussd": "*326#",
         "code": "050",
-        "logo": "logos/ecobank-nigeria.png"
+        "longcode": "050150010",
+        "logo": "logos/ecobank-nigeria.png",
+        "ussd": "*326#"
     },
     {
         "id": 614,
@@ -162,9 +162,9 @@
         "id": 174,
         "name": "Abbey Mortgage Bank",
         "slug": "abbey-mortgage-bank",
-        "ussd": "*332#",
         "code": "801",
-        "logo": "logos/abbey-mortgage-bank.png"
+        "logo": "logos/abbey-mortgage-bank.png",
+        "ussd": "*332#"
     },
     {
         "id": 679,
@@ -177,17 +177,17 @@
         "id": 67,
         "name": "Kuda Bank",
         "slug": "kuda-bank",
-        "ussd": "*894#",
         "code": "50211",
-        "logo": "logos/kuda-bank.png"
+        "logo": "logos/kuda-bank.png",
+        "ussd": "*894#"
     },
     {
         "id": 495,
         "name": "Accion Microfinance Bank",
         "slug": "accion-microfinance-bank-ng",
-        "ussd": "*572#",
         "code": "602",
-        "logo": "logos/accion-microfinance-bank-ng.png"
+        "logo": "logos/accion-microfinance-bank-ng.png",
+        "ussd": "*572#"
     },
     {
         "id": 181,
@@ -197,22 +197,22 @@
         "logo": "logos/bainescredit-mfb.png"
     },
     {
-        "longcode": "50743",
         "id": 693,
         "name": "Peace Microfinance Bank",
         "slug": "peace-microfinance-bank-ng",
         "code": "50743",
+        "longcode": "50743",
         "logo": "logos/peace-microfinance-bank-ng.png"
     },
     {
-        "longcode": "103015001",
         "id": 70,
         "name": "Globus Bank",
         "slug": "globus-bank",
-        "ussd": "*989#",
-        "ussd_transfer": "*989*2*{{ amt }}*{{ acc }}#",
         "code": "00103",
-        "logo": "logos/globus-bank.png"
+        "longcode": "103015001",
+        "logo": "logos/globus-bank.png",
+        "ussd": "*989#",
+        "ussd_transfer": "*989*2*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 297,
@@ -222,21 +222,21 @@
         "logo": "logos/astrapolaris-mfb.png"
     },
     {
-        "longcode": "null",
         "id": 688,
         "name": "Moniepoint MFB",
         "slug": "moniepoint-mfb-ng",
-        "ussd": "*888#",
         "code": "50515",
-        "logo": "logos/moniepoint-mfb-ng.png"
+        "longcode": "null",
+        "logo": "logos/moniepoint-mfb-ng.png",
+        "ussd": "*888#"
     },
     {
         "id": 23,
         "name": "Suntrust Bank",
         "slug": "suntrust-bank",
-        "ussd": "*5230#",
         "code": "100",
-        "logo": "logos/suntrust-bank.png"
+        "logo": "logos/suntrust-bank.png",
+        "ussd": "*5230#"
     },
     {
         "id": 188,
@@ -246,24 +246,24 @@
         "logo": "logos/above-only-mfb.png"
     },
     {
-        "longcode": "215154097",
         "id": 19,
         "name": "Unity Bank",
         "slug": "unity-bank",
-        "ussd": "*7799#",
-        "ussd_transfer": "*7799*1*{{ acc }}*{{ amt }}#",
         "code": "215",
-        "logo": "logos/unity-bank.png"
+        "longcode": "215154097",
+        "logo": "logos/unity-bank.png",
+        "ussd": "*7799#",
+        "ussd_transfer": "*7799*1*{{ acc }}*{{ amt }}#"
     },
     {
-        "longcode": "214150018",
         "id": 8,
         "name": "First City Monument Bank",
         "slug": "first-city-monument-bank",
-        "ussd": "*329#",
-        "ussd_transfer": "*329*{{ amt }}*{{ acc }}#",
         "code": "214",
-        "logo": "logos/first-city-monument-bank.png"
+        "longcode": "214150018",
+        "logo": "logos/first-city-monument-bank.png",
+        "ussd": "*329#",
+        "ussd_transfer": "*329*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 365,
@@ -301,56 +301,56 @@
         "logo": "logos/coronation-merchant-bank-ng.png"
     },
     {
-        "longcode": "50840",
         "id": 690,
         "name": "U&C Microfinance Bank Ltd (U AND C MFB)",
         "slug": "uc-microfinance-bank-ltd-u-and-c-mfb-ng",
         "code": "50840",
+        "longcode": "50840",
         "logo": "logos/uc-microfinance-bank-ltd-u-and-c-mfb-ng.png"
     },
     {
         "id": 68,
         "name": "TAJ Bank",
         "slug": "taj-bank",
-        "ussd": "*898#",
-        "ussd_transfer": "*898*{{ amt }}*{{ acc }}#",
         "code": "302",
-        "logo": "logos/taj-bank.png"
+        "logo": "logos/taj-bank.png",
+        "ussd": "*898#",
+        "ussd_transfer": "*898*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 233,
         "name": "Lotus Bank",
         "slug": "lotus-bank",
-        "ussd": "*5045#",
         "code": "303",
-        "logo": "logos/lotus-bank.png"
+        "logo": "logos/lotus-bank.png",
+        "ussd": "*5045#"
     },
     {
-        "longcode": "000031",
         "id": 304,
         "name": "PremiumTrust Bank",
         "slug": "premiumtrust-bank-ng",
-        "ussd": "*858#",
         "code": "105",
-        "logo": "logos/premiumtrust-bank-ng.png"
+        "longcode": "000031",
+        "logo": "logos/premiumtrust-bank-ng.png",
+        "ussd": "*858#"
     },
     {
-        "longcode": "120001",
         "id": 302,
         "name": "9mobile 9Payment Service Bank",
         "slug": "9mobile-9payment-service-bank-ng",
-        "ussd": "*990# ",
         "code": "120001",
-        "logo": "logos/9mobile-9payment-service-bank-ng.png"
+        "longcode": "120001",
+        "logo": "logos/9mobile-9payment-service-bank-ng.png",
+        "ussd": "*990# "
     },
     {
-        "longcode": "120003",
         "id": 303,
         "name": "MTN Momo PSB",
         "slug": "mtn-momo-psb-ng",
-        "ussd": "*671#",
         "code": "120003",
-        "logo": "logos/mtn-momo-psb-ng.png"
+        "longcode": "120003",
+        "logo": "logos/mtn-momo-psb-ng.png",
+        "ussd": "*671#"
     },
     {
         "id": 75,
@@ -367,11 +367,11 @@
         "logo": "logos/ibile-mfb.png"
     },
     {
-        "longcode": "865",
         "id": 692,
         "name": "CASHCONNECT MFB",
         "slug": "cashconnect-mfb-ng",
         "code": "865",
+        "longcode": "865",
         "logo": "logos/cashconnect-mfb-ng.png"
     },
     {
@@ -424,14 +424,14 @@
         "logo": "logos/rand-merchant-bank.png"
     },
     {
-        "longcode": "032080474",
         "id": 17,
         "name": "Union Bank of Nigeria",
         "slug": "union-bank-of-nigeria",
-        "ussd": "*826#",
-        "ussd_transfer": "*826*2*{{ amt }}*{{ acc }}#",
         "code": "032",
-        "logo": "logos/union-bank-of-nigeria.png"
+        "longcode": "032080474",
+        "logo": "logos/union-bank-of-nigeria.png",
+        "ussd": "*826#",
+        "ussd_transfer": "*826*2*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 177,
@@ -441,14 +441,14 @@
         "logo": "logos/firmus-mfb.png"
     },
     {
-        "longcode": "076151006",
         "id": 13,
         "name": "Polaris Bank",
         "slug": "polaris-bank",
-        "ussd": "*833#",
-        "ussd_transfer": "*833*{{ amt }}*{{ acc }}#",
         "code": "076",
-        "logo": "logos/polaris-bank.png"
+        "longcode": "076151006",
+        "logo": "logos/polaris-bank.png",
+        "ussd": "*833#",
+        "ussd_transfer": "*833*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 285,
@@ -479,11 +479,11 @@
         "logo": "logos/cemcs-microfinance-bank.png"
     },
     {
-        "longcode": "50910",
         "id": 691,
         "name": "Consumer Microfinance Bank",
         "slug": "consumer-microfinance-bank-ng",
         "code": "50910",
+        "longcode": "50910",
         "logo": "logos/consumer-microfinance-bank-ng.png"
     },
     {
@@ -501,14 +501,14 @@
         "logo": "logos/carbon.png"
     },
     {
-        "longcode": "082150017",
         "id": 11,
         "name": "Keystone Bank",
         "slug": "keystone-bank",
-        "ussd": "*7111#",
-        "ussd_transfer": "*7111*{{ amt }}*{{ acc }}#",
         "code": "082",
-        "logo": "logos/keystone-bank.png"
+        "longcode": "082150017",
+        "logo": "logos/keystone-bank.png",
+        "ussd": "*7111#",
+        "ussd_transfer": "*7111*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 615,
@@ -525,71 +525,71 @@
         "logo": "logos/ampersand-microfinance-bank-ng.png"
     },
     {
-        "longcode": "null",
         "id": 704,
         "name": "Chikum Microfinance bank",
         "slug": "chikum-microfinance-bank-ng",
         "code": "312",
+        "longcode": "null",
         "logo": "logos/chikum-microfinance-bank-ng.png"
     },
     {
-        "longcode": "090629",
         "id": 707,
         "name": "Amegy Microfinance Bank",
         "slug": "amegy-microfinance-bank-ng",
         "code": "090629",
+        "longcode": "090629",
         "logo": "logos/amegy-microfinance-bank-ng.png"
     },
     {
-        "longcode": "50453",
         "id": 703,
         "name": "Imowo MFB",
         "slug": "imowo-mfb-ng",
         "code": "50453",
+        "longcode": "50453",
         "logo": "logos/imowo-mfb-ng.png"
     },
     {
-        "longcode": "null",
         "id": 706,
         "name": "SAGE GREY FINANCE LIMITED",
         "slug": "sage-grey-finance-limited-ng",
         "code": "40165",
+        "longcode": "null",
         "logo": "logos/sage-grey-finance-limited-ng.png"
     },
     {
-        "longcode": "null",
         "id": 626,
         "name": "Polyunwana MFB",
         "slug": "polyunwana-mfb-ng",
         "code": "50864",
+        "longcode": "null",
         "logo": "logos/polyunwana-mfb-ng.png"
     },
     {
-        "longcode": "057150013",
         "id": 21,
         "name": "Zenith Bank",
         "slug": "zenith-bank",
-        "ussd": "*966#",
-        "ussd_transfer": "*966*{{ amt }}*{{ acc }}#",
         "code": "057",
-        "logo": "logos/zenith-bank.png"
+        "longcode": "057150013",
+        "logo": "logos/zenith-bank.png",
+        "ussd": "*966#",
+        "ussd_transfer": "*966*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "070150003",
         "id": 6,
         "name": "Fidelity Bank",
         "slug": "fidelity-bank",
-        "ussd": "*770#",
-        "ussd_transfer": "*770*{{ acc }}*{{ amt }}#",
         "code": "070",
-        "logo": "logos/fidelity-bank.png"
+        "longcode": "070150003",
+        "logo": "logos/fidelity-bank.png",
+        "ussd": "*770#",
+        "ussd_transfer": "*770*{{ acc }}*{{ amt }}#"
     },
     {
-        "longcode": "068150015",
         "id": 15,
         "name": "Standard Chartered Bank",
         "slug": "standard-chartered-bank",
         "code": "068",
+        "longcode": "068150015",
         "logo": "logos/standard-chartered-bank.png"
     },
     {
@@ -617,27 +617,27 @@
         "id": 26,
         "name": "Parallex Bank",
         "slug": "parallex-bank",
-        "ussd": "*1242#",
         "code": "104",
-        "logo": "logos/parallex-bank.png"
+        "logo": "logos/parallex-bank.png",
+        "ussd": "*1242#"
     },
     {
         "id": 296,
         "name": "Living Trust Mortgage Bank",
         "slug": "living-trust-mortgage-bank",
-        "ussd": "*723*312#",
         "code": "031",
-        "logo": "logos/living-trust-mortgage-bank.png"
+        "logo": "logos/living-trust-mortgage-bank.png",
+        "ussd": "*723*312#"
     },
     {
-        "longcode": "221159522",
         "id": 14,
         "name": "Stanbic IBTC Bank",
         "slug": "stanbic-ibtc-bank",
-        "ussd": "*909#",
-        "ussd_transfer": "*909*22*{{ amt }}*{{ acc }}#",
         "code": "221",
-        "logo": "logos/stanbic-ibtc-bank.png"
+        "longcode": "221159522",
+        "logo": "logos/stanbic-ibtc-bank.png",
+        "ussd": "*909#",
+        "ussd_transfer": "*909*22*{{ amt }}*{{ acc }}#"
     },
     {
         "id": 186,
@@ -654,21 +654,21 @@
         "logo": "logos/ekondo-microfinance-bank-ng.png"
     },
     {
-        "longcode": "50315",
         "id": 687,
         "name": "FLOURISH MFB",
         "slug": "flourish-mfb-ng",
         "code": "50315",
+        "longcode": "50315",
         "logo": "logos/flourish-mfb-ng.png"
     },
     {
-        "longcode": "00107",
         "id": 699,
         "name": "Optimus Bank Limited",
         "slug": "optimus-bank-ltd",
-        "ussd": "*930#",
         "code": "107",
-        "logo": "logos/optimus-bank-ltd.png"
+        "longcode": "00107",
+        "logo": "logos/optimus-bank-ltd.png",
+        "ussd": "*930#"
     },
     {
         "id": 637,
@@ -678,40 +678,40 @@
         "logo": "logos/dot-microfinance-bank-ng.png"
     },
     {
-        "longcode": "511080896",
         "id": 179,
         "name": "Amju Unique MFB",
         "slug": "amju-unique-mfb",
         "code": "50926",
+        "longcode": "511080896",
         "logo": "logos/amju-unique-mfb.png"
     },
     {
-        "longcode": "120002",
         "id": 301,
         "name": "HopePSB",
         "slug": "hopepsb-ng",
         "code": "120002",
+        "longcode": "120002",
         "logo": "logos/hopepsb-ng.png"
     },
     {
-        "longcode": "011151003",
         "id": 7,
         "name": "First Bank of Nigeria",
         "slug": "first-bank-of-nigeria",
-        "ussd": "*894#",
-        "ussd_transfer": "*894*{{ amt }}*{{ acc }}#",
         "code": "011",
-        "logo": "logos/first-bank-of-nigeria.png"
+        "longcode": "011151003",
+        "logo": "logos/first-bank-of-nigeria.png",
+        "ussd": "*894#",
+        "ussd_transfer": "*894*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "063150162",
         "id": 3,
         "name": "Access Bank (Diamond)",
         "slug": "access-bank-diamond",
-        "ussd": "*901#",
-        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#",
         "code": "063",
-        "logo": "logos/access-bank-diamond.png"
+        "longcode": "063150162",
+        "logo": "logos/access-bank-diamond.png",
+        "ussd": "*901#",
+        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#"
     },
     {
         "id": 630,
@@ -735,40 +735,40 @@
         "logo": "logos/shield-mfb-ng.png"
     },
     {
-        "longcode": "50171",
         "id": 284,
         "name": "Chanelle Microfinance Bank Limited",
         "slug": "chanelle-microfinance-bank-limited-ng",
         "code": "50171",
+        "longcode": "50171",
         "logo": "logos/chanelle-microfinance-bank-limited-ng.png"
     },
     {
-        "longcode": "301080020",
         "id": 22,
         "name": "Jaiz Bank",
         "slug": "jaiz-bank",
-        "ussd": "*773#",
-        "ussd_transfer": "*773*{{ amt }}*{{ acc }}#",
         "code": "301",
-        "logo": "logos/jaiz-bank.png"
+        "longcode": "301080020",
+        "logo": "logos/jaiz-bank.png",
+        "ussd": "*773#",
+        "ussd_transfer": "*773*{{ amt }}*{{ acc }}#"
     },
     {
-        "longcode": "044150149",
         "id": 1,
         "name": "Access Bank",
         "slug": "access-bank",
-        "ussd": "*901#",
-        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#",
         "code": "044",
-        "logo": "logos/access-bank.png"
+        "longcode": "044150149",
+        "logo": "logos/access-bank.png",
+        "ussd": "*901#",
+        "ussd_transfer": "*901*2*{{ amt }}*{{ amt }}#"
     },
     {
         "id": 71,
         "name": "VFD Microfinance Bank Limited",
         "slug": "vfd",
-        "ussd": "*5037#",
         "code": "566",
-        "logo": "logos/vfd.png"
+        "logo": "logos/vfd.png",
+        "ussd": "*5037#"
     },
     {
         "id": 184,
@@ -785,11 +785,11 @@
         "logo": "logos/mint-mfb.png"
     },
     {
-        "longcode": "120004",
         "id": 300,
         "name": "Airtel Smartcash PSB",
         "slug": "airtel-smartcash-psb-ng",
         "code": "120004",
+        "longcode": "120004",
         "logo": "logos/airtel-smartcash-psb-ng.png"
     }
 ]
